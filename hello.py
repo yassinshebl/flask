@@ -8,3 +8,8 @@ app = Flask(__name__)
 
 def index():
     return render_template("index.html")
+
+@app.route('/link')
+
+def link():
+    return render_template("linkk.html")
